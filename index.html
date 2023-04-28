@@ -22,6 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Learn With Nagyaaa</title>
   </head>
   <body>
@@ -47,7 +48,7 @@
     </section>
     <div id="progress-bar"></div>
     <!-- Main -->
-    <section id="home" class="main">
+    <section id="home" class="main" data-aos="fade-in">
       <div class="main_heading">
         <p>A COMPLETE COURSE</p>
         <p>ON THE STOCK MARKET</p>
@@ -108,7 +109,7 @@
         </div>
       </div>
     </section>
-    <section class="coursespec">
+    <section class="coursespec" data-aos="fade-in">
       <div>
         <h1>Course Specification</h1>
         <div class="spec">
@@ -185,7 +186,7 @@
       </div>
       </div>
     </section>
-    <section id="tutor" class="tutor">
+    <section id="tutor" class="tutor" data-aos="fade-in">
       <h2>Know The Tutor</h2>
       <div class="abouttut">
           <div class="tutname">
@@ -260,6 +261,14 @@
     <h2>Just Listen Some Music and Relax...</h2>
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4qApTp9557qYZzRLEih4uP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <script src="app.js"></script>
+    <!-- Aos Script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 250,
+        duration: 1300
+      });
+    </script>
   </body>
 </html>
 
