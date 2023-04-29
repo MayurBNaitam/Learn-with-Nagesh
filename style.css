@@ -4,9 +4,10 @@
   margin: 0;
   padding: 0;
   /* background-color: black; */
-  background: url(Background/Background_Image.jpg)
+  background: url(Background/image\(1\).jpg)
     no-repeat center center fixed;
   color: white;
+  background-size: 100%;
 }
 
 html {
